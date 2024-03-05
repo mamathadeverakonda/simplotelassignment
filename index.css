@@ -1,0 +1,639 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    background-color: #ff7171;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    height: 50px;
+    font-family: "Playfair Display SC";
+  width: 100%;
+}
+
+.imagesContainer {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+   
+}
+
+.firstimage {
+   
+    display: block;
+    margin: 3px;
+    width  :180px;
+    height: 180px;
+    padding:10px;
+   
+}
+
+.secondimage {
+
+    display: block;
+    margin: 3px;
+    width  :180px;
+    height: 180px;
+    padding:10px;
+   
+}
+
+.thirdimage {
+   
+    display: block;
+    width  :200px;
+    height: 375px;
+    padding:10px;
+    padding-bottom:5px;
+  
+}
+
+.imagesCard {
+    background-image: linear-gradient(to right, #F1EAAF, #DDBABE);
+    padding: 60px;
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+.clickarrowbutton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    border: none;
+    background-color: transparent;
+}
+
+.options {
+    display: block;
+    height: 25px;
+}
+
+.secondcardLorem {
+
+    background-color: #E26E6C;
+    width: 500px;
+    height: 250px;
+    margin-left: 20px;
+    padding: 20px;
+    font-family: "Roboto";
+}
+
+.card2images {
+    width: 50%;
+}
+
+.clickButton {
+    color: #ffffff;
+    background-color: #ff7171;
+    border: none;
+    padding: 10px;
+    font-family: "Roboto";
+    width: 130px;
+    font-weight: 100;
+}
+
+.Para {
+    font-size: 25px;
+}
+
+.Heading {
+    font-size: 50px;
+    font-family: "Roboto";
+}
+
+.Home {
+    height: 100vh;
+    margin: 0px;
+}
+
+.firstcard {
+    width: 50%;
+    height: 500px;
+    padding: 20px;
+    background-image: linear-gradient(to right, #F1EAAF, #DDBABE);
+}
+
+.secondcard {
+    width: 50%;
+    height: 450px;
+    background-image: url('https://res.cloudinary.com/dxorhiaeo/image/upload/v1708163759/pexels-robin-stickel-70497_b3nsiq.jpg');
+    background-size: cover;
+    padding: 20px;
+}
+
+.seconddev {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.myImage {
+    height: 500px;
+    width: 100%;
+
+}
+
+.secondcard {
+    width: 50%;
+    height: 500px;
+    background-size: cover;
+    padding: 20px;
+    display: block;
+}
+
+@media screen and (max-width:576px) {
+    .Heading {
+        font-size: 15px;
+    }
+
+    .nav-bar {
+        height: 25px;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+
+
+    }
+
+    .nav-bar div {
+        display: block;
+        font-size: 5px;
+        margin: 4px;
+
+
+    }
+
+    .options {
+        height: 15px;
+        margin-bottom: 3px;
+        display: block;
+    }
+
+    .nav-bar img {
+        text-align: left;
+        margin-top: 4px;
+
+    }
+
+    .Home {
+        height: 100vh;
+    }
+
+    .Para {
+        font-size: 7px;
+    }
+
+    .firstimage {
+        height: 100px;
+        width: 150px;
+    }
+
+    .secondimage {
+        height: 100px;
+        width: 100px;
+    }
+
+    .clickarrowbutton {
+        text-align: left;
+        width: 50%;
+    }
+
+    .thirdimage {
+        height: 200px;
+        width: 150px;
+    }
+
+    .imagesCard {
+        padding: 10px;
+    }
+
+    .clickButton {
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .secondcardLorem {
+        height: 100px;
+        margin-top: 10px;
+        width: 90px;
+
+
+    }
+
+    .secondcard {
+        width: 50%;
+        height: 200px;
+        background-size: cover;
+        padding: 20px;
+        display: block;
+        padding: 5px;
+    }
+
+    .firstcard {
+        width: 50%;
+        height: 200px;
+        padding: 20px;
+        background-image: linear-gradient(to right, #F1EAAF, #DDBABE);
+
+    }
+.imagesCard {
+        height: 230px;
+        margin-top: 5px;
+    }
+
+    .secondimage {
+        height: 70px;
+        width: 50px;
+    }
+
+    .firstimage {
+        height: 80px;
+        width: 50px;
+    }
+
+    .thirdimage {
+        height: 150px;
+        width: 90px;
+        margin-left: 0px;
+    }
+
+    .Lorem-head {
+        font-size: 5px;
+        letter-spacing: 1px;
+        width: 100%;
+    }
+
+    .main-lorem-heading {
+        font-size: 9px;
+        letter-spacing: 2px;
+        font-weight: bold;
+
+    }
+
+    .arrowImage {
+        margin-left: 4px;
+        width: 15px;
+        padding-bottom: 6px;
+
+    }
+
+    span {
+        font-size: 8px;
+        padding-bottom: 6px;
+    }
+
+
+
+
+}
+
+@media screen and (min-width:576px) {
+    .Heading {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    .nav-bar {
+        height: 25px;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+
+
+
+    }
+
+    .nav-bar div {
+        display: block;
+        font-size: 10px;
+        margin: 4px;
+        font-weight: bold;
+        letter-spacing: 1px;
+
+
+    }
+
+    .options {
+        height: 15px;
+        margin-bottom: 3px;
+        display: block;
+    }
+
+    .nav-bar img {
+        text-align: left;
+        margin-top: 4px;
+
+    }
+
+    .Home {
+        height: 100vh;
+    }
+
+    .Para {
+        font-size: 10px;
+        font-weight: 0px;
+    }
+
+    .firstimage {
+        height: 100px;
+        width: 150px;
+    }
+
+    .secondimage {
+        height: 100px;
+        width: 100px;
+    }
+
+    .clickarrowbutton {
+        text-align: left;
+        width: 20%;
+    }
+
+    .thirdimage {
+        height: 200px;
+        width: 150px;
+    }
+
+    .imagesCard {
+        padding: 10px;
+    }
+
+    .clickButton {
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .secondcardLorem {
+        height: 120px;
+        margin-top: 10px;
+        width: 2000px;
+
+
+    }
+
+    .secondcard {
+        width: 50%;
+        height: 200px;
+        background-size: cover;
+        padding: 20px;
+        display: block;
+        padding: 5px;
+    }
+
+    .firstcard {
+        width: 50%;
+        height: 200px;
+        padding: 20px;
+        background-image: linear-gradient(to right, #F1EAAF, #DDBABE);
+
+    }
+
+    .imagesCard {
+        height: 230px;
+        margin-top: 5px;
+    }
+
+    .secondimage {
+        height: 90px;
+        width: 100px;
+        margin-right: 0px;
+    }
+
+    .firstimage {
+        height: 90px;
+        width: 100px;
+        margin-right: 0px;
+    }
+
+    .thirdimage {
+        height: 180px;
+        width: 150px;
+        margin-left: 0px;
+    }
+
+    .Lorem-head {
+        font-size: 8px;
+        letter-spacing: 1px;
+        width: 100%;
+    }
+
+    .main-lorem-heading {
+        font-size: 13px;
+        letter-spacing: 2px;
+        font-weight: bold;
+
+    }
+
+    .arrowImage {
+        margin-left: 5px;
+        width: 20px;
+        padding-bottom: 6px;
+        text-align: left;
+
+    }
+
+    span {
+        font-size: 14px;
+        padding-bottom: 6px;
+    }
+
+
+
+
+}
+
+
+@media screen and (min-width:768px) {
+    .Heading {
+        font-size: 35px;
+        letter-spacing: 2px;
+    }
+
+
+    .firstcard {
+        padding: 10px;
+
+    }
+
+
+    .Para {
+        font-size: 10px;
+    }
+
+    .firstimage {
+        height: 140px;
+        width: 150px;
+    }
+
+    .secondimage {
+        height: 140px;
+        width: 150px;
+        margin-top: 10px;
+    }
+
+
+
+    .thirdimage {
+        height: 290px;
+        width: 150px;
+        margin-left: 10px;
+    }
+
+    .secondcardLorem {
+        font-size: 10px;
+        height: 200px;
+        padding: 25px;
+        width: 300px;
+
+    }
+
+    .imagesCard {
+        padding: 20px;
+        margin-top: 10px;
+        height: 400px;
+    }
+
+    .Lorem-head {
+        font-size: 15px;
+    }
+
+    .main-lorem-heading {
+        font-size: 20px;
+    }
+
+
+
+
+}
+
+
+@media screen and (min-width:992px) {
+    .imagesCard {
+        height: 600px;
+        display: flex;
+        align-items: center;
+    }
+.nav-bar {
+        background-color: #f0756c;
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 2px;
+        height: 59px;
+        font-family: "Playfair Display SC";
+    }
+
+    .Home {
+        height: 100vh;
+    }
+
+    .firstimage {
+        height: 250px;
+        width: 250px;
+    }
+
+    .imagesContainer {
+        padding: 16px;
+        width: 500px;
+    }
+
+    .secondimage {
+        height: 250px;
+        width: 250px;
+    }
+
+
+    .thirdimage {
+        height: 500px;
+        width: 310px;
+        margin-left: 20px;
+    }
+
+    .secondcardLorem {
+        margin-left: 100px;
+        width: 500px;
+        font-size: 13px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: #f0756c;
+
+    }
+
+    .main-lorem-heading {
+        font-size: 35px;
+        font-weight: 900;
+        font-family: "Roboto";
+        letter-spacing: 4px;
+    }
+
+    .Lorem-head {
+        letter-spacing: 1px;
+        font-family: "Roboto";
+        font-weight: 0px;
+        font-size: 15px;
+    }
+
+    .arrowImage {
+        margin-left: 20px;
+    }
+
+    .clickButton {
+        background-color: #f0847d;
+        width: 160px;
+        padding: 10px;
+        color: ffffff;
+        height: 60px;
+        font-size: 18px;
+    }
+
+    .Para {
+        letter-spacing: 1px;
+        font-family: "Roboto";
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+    .Heading {
+        letter-spacing: 3px;
+        font-family: "Roboto";
+        font-size: 50px;
+
+    }
+
+    .secondcard {
+        height: 100%;
+    }
+
+    .firstcard {
+        padding: 20px;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .seconddev {
+        height: 600px;
+    }
+
+
+}
